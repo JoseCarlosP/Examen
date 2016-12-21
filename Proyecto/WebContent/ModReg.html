@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Modificar Registro</title>
+</head>
+<body>
+<!-- Nav-Bar -->
+<nav class="navbar navbar-inverse" style="background: #424242;">
+  <div class="container-fluid"  >
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Infosyst</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="HOME.jsp">Home</a></li>
+      <li><a href="ConDat.jsp">Consultar Datos</a></li>
+      <li><a href="AgrReg.html">Agregar un Registro</a></li>
+      <li><a href="ModReg.html">Modificar un Registro</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- Fin la Nav-Bar -->
+	<h1>Modificar un Registro</h1>
+	<form action="ModReg.jsp" method="post">
+		<table>
+			<tr>
+				<td>Nuevo Nombre:</td>
+				<td><input type="text" name="nombre"/></td>
+			</tr>
+			<tr>
+				<td>Nuevo Apellido Paterno:</td>
+				<td><input type="text" name="apellido_paterno" /></td>
+			</tr>
+			<tr>
+				<td>Nuevo Apellido Materno:</td>
+				<td><input type="text" name="apellido_materno" /></td>
+			</tr>
+			<tr>
+				<td>Nuevo E-mail:</td>
+				<td><input type="text" name="email" /></td>
+			</tr>
+			<tr>
+				<td>Nueva Edad:</td>
+				<td><input type="text" name="edad" /></td>
+			</tr>
+			<tr>
+				<td>Nuevos Ingresos Mensuales:</td>
+				<td><input type="text" name="ingresos_mensuales" /></td>
+			</tr>
+			<tr>
+				<td>Nueva Fecha de Ingreso:</td>
+				<td><input type="date" name="fecha_ingreso" /></td>
+			</tr>
+			<tr>
+				<td>Id(del Registro que desea modificar):</td>
+				<td><input type="number" name="id"/></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Modificar" /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
