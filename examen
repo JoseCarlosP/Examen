@@ -1,0 +1,4 @@
+CREATE DATABASE examen;
+use examen;
+
+CREATE TABLE infosyst(id int(100) NOT NULL AUTO_INCREMENT, nombre varchar(100), apellido_paterno varchar(100) NOT NULL, apellido_materno varchar(100) NOT NULL, email varchar(100) NOT NULL, edad varchar(100) NOT NULL, ingresos_mensuales varchar(100) NOT NULL, fecha_ingreso varchar(100) NOT NULL, PRIMARY KEY (id))ENGINE=innoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=21;
